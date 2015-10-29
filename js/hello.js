@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 
 var Hello = React.createClass({
     handleClick: function () {
@@ -18,4 +18,4 @@ var Hello = React.createClass({
     }
 });
 
-module.exports = Hello;
+export default Hello;
